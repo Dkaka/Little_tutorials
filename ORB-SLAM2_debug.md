@@ -36,7 +36,7 @@ Please refer to [ask ubuntu-How do I install .run files?](https://askubuntu.com/
 	please refer to **6. RGB-D Example** of [GitHub - raulmur/ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2 )
 	* 	Change '*Working Direcory*' to the directory of ORBSLAM2.  
 	* The following is the capture of my settings: 
-![Run_settings](\Run_settings.png)
+![Run_settings](https://raw.githubusercontent.com/Dkaka/Little_tutorials/master/Run_settings.png)
 
 6. Now the 'RUN' and 'RUN IN DEBUG' bottons on the bottom left of screen should work    
 **I followed [debug the code #77](https://github.com/raulmur/ORB_SLAM/issues/77) to do this.**
