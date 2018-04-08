@@ -22,9 +22,9 @@ Please refer to [ask ubuntu-How do I install .run files?](https://askubuntu.com/
 	*  	Use `chmod +x build.sh` and `./build.sh` to build g2o and DBoW2.  
  	please refer to **3. Building ORB-SLAM2 library and examples** of [GitHub - raulmur/ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2 )
 3. Build the projects in debug mode: 	
-* 	 In Qt Creator:  
- 		Build-> Open Build and Run selector: change selection in '*Build*' to '**Debug**'  
-* 	 Right click on projects -> build project 
+	* 	 In Qt Creator:  
+	 		Build-> Open Build and Run selector: change selection in '*Build*' to '**Debug**'  
+	* 	 Right click on projects -> build project 
 
 5.  Run TUM dataset:
 	* 	 I downloaded TUM **rgbd-fr2-xyz** dataset in the '*Download*' folder, this could influnce the following command line arguments
@@ -34,12 +34,9 @@ Please refer to [ask ubuntu-How do I install .run files?](https://askubuntu.com/
 	* 	change '*command line arguments*' to  `./Examples/RGB-D/rgbd_tum Vocabulary/ORBvoc.txt Examples/RGB-D/TUMX.yaml PATH_TO_SEQUENCE_FOLDER ASSOCIATIONS_FILE`  
 	* 	Mine is `Vocabulary/ORBvoc.txt Examples/RGB-D/TUM2.yaml ~/Downloads/rgbd_dataset_freiburg2_xyz Examples/RGB-D/associations/fr2_xyz.txt`  
 	please refer to **6. RGB-D Example** of [GitHub - raulmur/ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2 )
-
-	6. Change '*Working Direcory*' to the directory of ORBSLAM2.  
-The following is the capture of my settings: 
-![Run_settings](https://raw.githubusercontent.com/Dkaka/Little_tutorials/master/Run_settings.png)
-
-
+	* 	Change '*Working Direcory*' to the directory of ORBSLAM2.  
+	* The following is the capture of my settings: 
+![Run_settings](\Run_settings.png)
 
 6. Now the 'RUN' and 'RUN IN DEBUG' bottons on the bottom left of screen should work    
 **I followed [debug the code #77](https://github.com/raulmur/ORB_SLAM/issues/77) to do this.**
