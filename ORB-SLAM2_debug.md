@@ -34,15 +34,9 @@ Please refer to [ask ubuntu-How do I install .run files?](https://askubuntu.com/
 	* 	change '*command line arguments*' to  `./Examples/RGB-D/rgbd_tum Vocabulary/ORBvoc.txt Examples/RGB-D/TUMX.yaml PATH_TO_SEQUENCE_FOLDER ASSOCIATIONS_FILE`  
 	* 	Mine is `Vocabulary/ORBvoc.txt Examples/RGB-D/TUM2.yaml ~/Downloads/rgbd_dataset_freiburg2_xyz Examples/RGB-D/associations/fr2_xyz.txt`  
 	please refer to **6. RGB-D Example** of [GitHub - raulmur/ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2 )
-<<<<<<< HEAD
 	* 	Change '*Working Direcory*' to the directory of ORBSLAM2.  
 	* The following is the capture of my settings: 
 ![Run_settings](\Run_settings.png)
-=======
-	6. Change '*Working Direcory*' to the directory of ORBSLAM2.  
-The following is the capture of my settings: 
-![Run_settings](https://raw.githubusercontent.com/Dkaka/Little_tutorials/master/Run_settings.png)
->>>>>>> origin/master
 
 6. Now the 'RUN' and 'RUN IN DEBUG' bottons on the bottom left of screen should work    
 **I followed [debug the code #77](https://github.com/raulmur/ORB_SLAM/issues/77) to do this.**
