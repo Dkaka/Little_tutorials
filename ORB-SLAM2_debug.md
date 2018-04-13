@@ -32,7 +32,7 @@ Please refer to [ask ubuntu-How do I install .run files?](https://askubuntu.com/
 	* 	 Select ORB_SLAM2 project, and click on Projects pannel on the left of the screen:
 	* 	In '*Build and run*'->run, now '*run settings*' shall be shown
 	* 	change *'run configuration'* to **rgbd_tum**
-	* 	change '*command line arguments*' to  `./Examples/RGB-D/rgbd_tum Vocabulary/ORBvoc.txt Examples/RGB-D/TUMX.yaml PATH_TO_SEQUENCE_FOLDER ASSOCIATIONS_FILE`  
+	* 	change '*command line arguments*' to  ` Vocabulary/ORBvoc.txt Examples/RGB-D/TUMX.yaml PATH_TO_SEQUENCE_FOLDER ASSOCIATIONS_FILE`  
 	* 	Mine is `Vocabulary/ORBvoc.txt Examples/RGB-D/TUM2.yaml ~/Downloads/rgbd_dataset_freiburg2_xyz Examples/RGB-D/associations/fr2_xyz.txt`  
 	please refer to **6. RGB-D Example** of [GitHub - raulmur/ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2 )
 	* 	Change '*Working Direcory*' to the directory of ORBSLAM2.  
