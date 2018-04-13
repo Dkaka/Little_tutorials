@@ -36,7 +36,7 @@ Note: In the Ubuntu platform, the installation file might be a *.run which can't
 
 5.  Download and execute TUM dataset
 	1. Downloaded TUM [rgbd-fr2-xyz](https://vision.in.tum.de/data/datasets/rgbd-dataset/download) dataset and extract its contents in the home directory. This dataset could influence the following command line arguments
-	   * 	 Select ORB_SLAM2 project, and click on Projects pannel on the left of the screen
+	   * 	Select ORB_SLAM2 project, and click on Projects pannel on the left of the screen
 	   * 	In '*Build and run*'->run, now '*run settings*' shall be shown
 	   * 	Set *'run configuration'* to **rgbd_tum**
 	   * 	Set '*command line arguments*' to  ` Vocabulary/ORBvoc.txt Examples/RGB-D/TUM2.yaml ~/rgbd_dataset_freiburg2_xyz Examples/RGB-D/associations/fr2_xyz.txt`  
