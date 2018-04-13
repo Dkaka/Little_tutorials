@@ -7,7 +7,7 @@
 
 **The following procedures will create a fresh ORB-SLAM2 Debug project in Qt.**  
 
-##Procedures
+## Procedures
 1. Download Qt from the official webpage [Qt-Download](https://www.qt.io/download)<br>
 Note: In the Ubuntu platform, the installation file might be a *.run which can't be executed directly. You can execute it using following commands:
 `cd /home/user/Downloads `
