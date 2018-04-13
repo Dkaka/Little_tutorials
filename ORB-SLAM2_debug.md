@@ -16,6 +16,7 @@ Please refer to [ask ubuntu-How do I install .run files?](https://askubuntu.com/
 	File-> New file or project->Import Project->git clone
 	* 	Repository: https://github.com/raulmur/ORB_SLAM2  
 	* 	Feel free to set your own path and directry name.e.g. : **ORBSLAM2DEBUG**  
+	*	Click on *Configure* when promotpted 
 	
 2. Built g2o and DBoW2 before ORB-SLAM2 as those are dependencies:  
  	* Modify the *install.sh* file in your **ORBSLAM2DEBUG**  directry, comment out the last paragraph for building ORB-SLAM2. A copy of modified install.sh is provided along with this tutorial.  
